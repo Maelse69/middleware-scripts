@@ -5,11 +5,13 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello'
+                sleep 5
             }
         }
                stage('Buit') {
             steps {
                 echo 'Buit'
+                sleep 4
             }
         }
                stage('Test') {
